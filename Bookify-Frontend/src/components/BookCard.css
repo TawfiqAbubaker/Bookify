@@ -1,0 +1,86 @@
+*{
+    word-wrap: break-word;
+}
+.bookContainer{
+    width: 9em;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+    margin-right: auto;
+    margin-left: auto;
+}
+.bookContainer:hover{
+    transform: scale(1.02);
+}
+
+.imgDiv{
+    height: 210px;
+    margin: auto;
+    transition: transform 0.2s ease;
+    position: relative;
+    display: inline-block;
+
+}
+
+.imgDiv img{
+    height: 100%;
+    border-radius: 10px;
+}
+.PriceAndGenre:hover{
+    opacity: 1;
+}
+
+.PriceAndGenre{
+    position:absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease;
+}
+
+.PriceAndGenre p{
+    letter-spacing: 1.2px;
+    font-weight: 600;
+    margin-bottom: 0;
+    font-size: 12px;
+    margin-top: 0;
+    color: white;
+}
+.title{
+    padding-top: 3px;
+    font-weight: 500;
+}
+.author{
+    padding-top: 3.5px;
+    font-size: 11px;
+    font-weight: 400;
+}
+.cart{
+    margin-top: 1px;
+    margin-left: 3px;
+}
+.cartButton{
+    display: flex;
+    margin-top: 5px;
+    border: none;
+    /* box-shadow: 0px 0px 10px rgb(192, 192, 192); */
+    /* border-radius: 10px; */
+    background-color: rgb(247, 247, 247);
+    cursor: pointer;
+    font-weight: 700;
+    /* border: 1px solid rgb(206, 206, 206); */
+}
+
+.cartButton:hover{
+    box-shadow: 0px 0px 10px 0px rgb(202, 202, 202);
+}
+a{
+    text-decoration: none;
+}

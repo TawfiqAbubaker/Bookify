@@ -1,0 +1,32 @@
+.cartItemDiv{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    align-items: center;
+}
+.changeNumberItem{
+    flex: 0.2;
+    justify-content: center;
+    display: flex;
+}
+.changeNumberItem p{
+    margin: auto;
+} 
+.changeNumberItem button{
+    border: none;
+    font-size: 18px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.changeNumberItem p{
+    font-size: 18px;
+}
+.bookCartName{
+    flex: 0.8;
+    
+}
+.bookCartName h4{
+    margin: 10px auto;
+    
+}

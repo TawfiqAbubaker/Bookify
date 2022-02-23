@@ -1,0 +1,23 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fb;
+}
+*{
+  font-family: 'Nunito', sans-serif;
+}
+.everythingButNavBar{
+  margin-top: 88px;
+}
+h1, h2, h3, h4, p{
+  color: #2d3a33;
+}
+:root {
+  --color-1: #CB997E;
+  --color-2: #DDBEA9;
+  --color-3: #FFE8D6;
+  --color-4: #B7B7A4;
+  --color-5: #A5A58D;
+  --color-6: #6B705C;
+  --color-font-dark: #2d3a33;
+}

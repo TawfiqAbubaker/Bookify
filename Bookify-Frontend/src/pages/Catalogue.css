@@ -1,0 +1,192 @@
+.secondCatalogueDiv{
+    max-width: 1300px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    /* box-shadow: 0px  30px 20px #cacacaa4;
+    background-color: #cacacaa4; */
+    border-radius: 50px;
+    
+    
+}
+.mainCatalogueDiv{
+    
+    background-image: url("../img/background pattern-gigapixel-scale-2_00x.jpg");
+    background-repeat:repeat;
+    background-position:center; 
+}
+.LoweringCatalogueOpacity{
+    background-color: rgba(255, 255, 255, 0.98);
+}
+/* .submitOpacityDiv{
+    
+} */
+.sidePannel{
+    width: 300px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 50px;
+    height: 580px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    box-shadow: 0px 0px 20px rgb(224, 224, 224);
+}
+.sidePannel button{
+    width: 120px;
+}
+.mainPannel{
+    width: 100%;
+    margin-top: 25px;
+}
+.bookCards{
+    width: 99%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: auto;
+}
+.insideSidePannel{
+    margin: 30px 25px 25px 25px;
+}
+.genre{
+    margin: 30px 0px;
+}
+.genreText{
+    text-align: center;
+    letter-spacing: 1px;
+}
+.genreText h3{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.sideCataloguePanelLine{
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 1px solid rgb(45, 58, 51);
+    width: 90%;
+}
+
+@media (max-width: 1050px) {
+    .bookCards{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+@media (max-width: 860px) {
+    .bookCards{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (max-width: 700px) {
+    .secondCatalogueDiv{
+        flex-direction: column;
+    }
+    .insideSidePannel{
+        margin-top: 25px; 
+    }
+    .sidePannel{
+        width: 500px;
+        height: 220px;
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+    .genresDiv{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        margin-left: 30px;
+    }
+    .genre{
+        margin: 10px 0px;
+
+    }
+    .genreText{
+        letter-spacing: 3px;
+    }
+    .bookCards{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+@media (max-width: 600px) {
+    .bookCards{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (max-width: 510px) {
+    .genresDiv{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin-left: 20px;
+
+    }
+    .genre{
+        margin: 5px 0px;
+    }
+    .imgDiv{
+        height: 130px !important;
+    }
+    .bookContainer{
+        width: 6em !important;
+        margin-bottom: 15px !important;
+    }
+
+    .title{
+        padding-top: 2px !important;
+        font-weight: 700 ;
+        font-size: 13px;
+    }
+    .author{
+        padding-top: 3.5px;
+        font-size: 9px !important;
+        font-weight: 400;
+    }
+    .PriceAndGenre p{
+        font-size: 7px !important;
+    }
+    .cart{
+        margin-top: 0px;
+        margin-left: 3px;
+    }
+    .cartButton{
+        display: flex;
+        margin-top: 5px;
+        border: none;
+        /* box-shadow: 0px 0px 10px rgb(192, 192, 192); */
+        border-radius: 10px;
+        background-color: rgb(247, 247, 247);
+        cursor: pointer;
+        font-weight: 600 !important;
+        font-size: 12px;
+    }
+    .bookCards{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .sidePannel{
+        width: 90%;
+        max-width: 400px;
+        height: 200px;
+
+    }
+    label{
+        font-size: 14px;
+    }
+
+}
+@media (max-width: 440px) {
+    .bookCards{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .genresDiv{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .sidePannel{
+        width: 90%;
+        max-width: 500px;
+        min-width: 280px;
+        height: 270px;
+        
+    }
+}
